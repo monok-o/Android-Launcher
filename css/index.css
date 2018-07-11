@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+    text-align: center;
+}
+
+.app-list {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #23272A;
+    width: 50px;
+    overflow: auto;
+}
+
+.app-list img {
+    width: 60%;
+    margin: auto;
+}
+
+.desktop {
+    position: absolute;
+    left: 0;
+    right: 50px;
+    bottom: 0;
+    top: 0;
+    background-color: #2C2F33;
+}
+
+.search-bar {
+    margin-top: 20px;
+    width: 80%;
+    height: 35px;
+    background-color: white;
+    outline: none;
+    border: 0px solid;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+*:focus {
+    outline: none;
+}
